@@ -1,6 +1,6 @@
 let express=require('express')
 let app=express()
-
+let port=( process.env.PORT || 2000)
 let cors=require('cors');
 app.use(cors({
    origin:'*',
@@ -8,10 +8,10 @@ app.use(cors({
 }))
 app.use(express.static("views"));
 // app.set('view engine','ejs')
-let port=( process.env.PORT || 2000)
 
 
-httpserver.listen(port)
+
+app.listen(port)
 
 
 
