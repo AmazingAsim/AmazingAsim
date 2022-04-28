@@ -3,7 +3,7 @@
     --purple:rgb(20, 199, 223);
 }
 body{
-    font-family: 'Orelega One', cursive;
+   font-family: 'Orelega One', cursive;
    overflow-x: hidden;
    margin-top: 5%;
 }
@@ -11,13 +11,15 @@ body{
 li{
     list-style-type: none;
 }
-nav  a{
-    color:black;
+
+nav a{
+    color:red;
     font-size: 1.5rem;
 }
 
 .navbar-brand{
     font-size: 2rem;
+    
 }
 
 .info{
@@ -74,13 +76,15 @@ nav  a{
    border-radius: 100px;
    text-align: center;
    transition: 1s ease-in;
+ 
 
     
 }
 
 .toollist .col:hover{
-  transform: rotateY(20deg);
-  background-color: rgb(19, 226, 19);;
+  transform: rotateY(360deg);
+  background-color:red;
+  color:white;
 }
 .toollist h1{
     font-size: 20px;
@@ -119,9 +123,11 @@ nav  a{
 
 .footer{
     display: flex;
-    justify-content: space-around;
-    color: rgb(0, 0, 0);
+    flex-direction: column;
+    color: red;
+    font-size: 15px;
     height: 10vh;
+   
 }
 nav,footer{
     box-shadow: 0px 0px 10px black;
@@ -135,6 +141,11 @@ nav,footer{
    
 }
 
+footer{
+    position: relative;
+    right: -18px;
+}
+
 @keyframes glitter {
     0%{background: linear-gradient(to left,var(--purple),white,white);}
     50%{ background: linear-gradient(to left,white,var(--purple),white);}
@@ -142,9 +153,9 @@ nav,footer{
 }
 
 @keyframes spark {
-    0%{background: linear-gradient(to left,white 50%,rgb(161, 161, 161),white);}
-    50%{ background: linear-gradient(to left,white,rgb(161, 161, 161),white);}
-    100%{background: linear-gradient(to left,white,white,rgb(161, 161, 161));}
+    0%{background: linear-gradient(to left,rgba(255, 0, 0, 0.555),white,white);}
+    50%{ background: linear-gradient(to left,white,rgba(255, 0, 0, 0.507),white);}
+    100%{background: linear-gradient(to left,white,white,rgba(255, 0, 0, 0.5));}
 }
 
 img{
@@ -155,4 +166,17 @@ img{
 .sl img{
     box-shadow: 0px 0px 11px black;
 }
+
+
+.nav-link:hover{
+    color:red;
+}
+
+.favicons a,.favicons{
+    color:red;
+    text-align: center;
+
+}
+
+
 

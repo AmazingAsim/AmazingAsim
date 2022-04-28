@@ -11,8 +11,8 @@ fetch('./projects.json').then((res)=>{return res.json()}).then(r=>
               <p class="card-text">${p.desc}.</p>
             </div>
             <div class="card-footer">
-            <a href="${p.url}" class="btn btn-danger">visit site</a>
-            <a href="${p.git}" class="btn btn-danger">source code</a>
+            <a href="${p.url}" class="btn" style="background-color:red; color:white">visit site</a>
+            <a href="${p.git}" class="btn" style="background-color:red; color:white">source code</a>
             </div>
           </div> `
           griditem.setAttribute('class','col-sm-4  col-12 projectgrid')
