@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Square+Peg&display=swap');
+
+body{
+    font-family: 'Orelega One', cursive;
+   overflow-x: hidden;
+}
+
+li{
+    list-style-type: none;
+}
+nav  a{
+    color:black;
+    font-size: 1.5rem;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info ul li{
+    text-align: left;
+    vertical-align:bottom;
+}
+.info ul li::before{
+    
+    content: '\02605';
+    font-size: 2rem;
+    margin-right: 20px;
+   vertical-align:middle;
+}
+
+.info h1, .info h2{
+    background-color: yellow;
+    width: 100%;
+    box-shadow: 0px 0px 5px black;
+}
+
+.sl{
+    display: flex;
+    justify-content: center;
+    animation-name: glitter;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+
+.toollist .col{
+    background-color:yellow;
+    margin: 1px;
+    border-radius: 20px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+.toollist .col:hover{
+    background-color:rgb(5, 54, 0);
+    transform: scale(1.05);
+    margin: 1px;
+    border-radius: 20px;
+    color:white;
+    text-align: center;
+    cursor: pointer;
+}
+.projectgrid{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.tools{
+    background-color:gray;
+    text-shadow: 1px 1px 2px black;
+    animation-name: spark;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction:reverse;
+    animation-fill-mode: none;
+
+    
+}
+.card{
+    opacity: 0.95;
+}
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);;
+  opacity: 1;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+}
+nav,footer{
+    box-shadow: 0px 0px 10px black;
+    background-color: yellow;
+    animation-name: glitter;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+
+   
+}
+
+@keyframes glitter {
+    0%{background: linear-gradient(to left,yellow,white,white);}
+    50%{ background: linear-gradient(to left,white,yellow,white);}
+    100%{background: linear-gradient(to left,white,white,yellow);}
+}
+
+@keyframes spark {
+    0%{background: linear-gradient(to left,white 50%,rgb(161, 161, 161),white);}
+    50%{ background: linear-gradient(to left,white,rgb(161, 161, 161),white);}
+    100%{background: linear-gradient(to left,white,white,rgb(161, 161, 161));}
+}
+
+img{
+    box-shadow: 0px 0px 10px yellow;
+    border-radius: 50px;
+}
+
+.sl img{
+    box-shadow: 0px 0px 11px black;
+}
+
