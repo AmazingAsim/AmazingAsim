@@ -126,7 +126,8 @@ nav a{
     flex-direction: column;
     color: red;
     font-size: 15px;
-    height: 10vh;
+    height: fit-content;
+   
    
 }
 nav,footer{
@@ -141,10 +142,7 @@ nav,footer{
    
 }
 
-footer{
-    position: relative;
-    right: -18px;
-}
+
 
 @keyframes glitter {
     0%{background: linear-gradient(to left,var(--purple),white,white);}
@@ -167,6 +165,9 @@ img{
     box-shadow: 0px 0px 11px black;
 }
 
+.sl img:hover{
+    transform: scale(1.4);
+}
 
 .nav-link:hover{
     color:red;
@@ -175,6 +176,7 @@ img{
 .favicons a,.favicons{
     color:red;
     text-align: center;
+    margin: 20px;
 
 }
 
