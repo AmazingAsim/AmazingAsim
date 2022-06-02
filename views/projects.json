@@ -1,8 +1,5 @@
 [
     {"name":"kabootar.com","desc":"group chat web application that let you chat with anyone","url":"https://whitekabutar.herokuapp.com/","git":"https://github.com/AmazingAsim/kabutar"},
-    {"name":"SheikhStore","desc":"calculate the budjet and start shoping","url":"https://sheikhstore.asimsheikh3.repl.co/","git":""},
-    {"name":"Todo","desc":"to what you want and list it here","url":"https://to-do-using-vanilla-js.amazingasim.repl.co/","git":"https://replit.com/@AmazingAsim/to-do-using-vanilla-js#index.html"}
-   
-    
- 
+    {"name":"SheikhStore","desc":"calculate the budjet and start shoping","url":"https://sheikhstore.asimsheikh3.repl.co/","git":""}
+  
 ]

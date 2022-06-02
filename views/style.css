@@ -5,7 +5,12 @@
 body{
    font-family: 'Orelega One', cursive;
    overflow-x: hidden;
-   margin-top: 5%;
+   margin-top: 7%;
+   background:url('https://i.gifer.com/origin/55/55c41a4c580cdb65518e222ebeed0e51.gif');
+   background-attachment:fixed;
+   background-size: cover;
+   color:white;
+
 }
 
 li{
@@ -18,7 +23,17 @@ nav a{
 }
 
 .navbar-brand{
-    font-size: 2rem;
+    font-size: 4vw;
+    background:url('https://i.gifer.com/Hgap.gif');
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    padding:0px;
+    margin:0px;
+    height: fit-content;
+
+    color:transparent;
+
     
 }
 
@@ -49,10 +64,7 @@ nav a{
 .sl{
     display: flex;
     justify-content: center;
-    animation-name: glitter;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+
 }
 
 .toollist{
@@ -96,14 +108,7 @@ nav a{
    
 }
 
-.showcase{
-    animation-name: spark;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    animation-direction:reverse;
-    animation-fill-mode: none;
-}
+
 
 .tools{
     text-shadow: 1px 1px 2px black;
@@ -121,40 +126,21 @@ nav a{
   opacity: 1;
 }
 
-.footer{
-    display: flex;
-    flex-direction: column;
-    color: red;
-    font-size: 15px;
-    height: fit-content;
-   
-   
-}
+
 nav,footer{
     box-shadow: 0px 0px 10px black;
-    background-color: var(--purple);
-    animation-name: glitter;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-
-
+    background: url('https://c.tenor.com/FWCvtcgsT_EAAAAC/stars-star.gif');
+    background-size: cover;
+    padding:0px;
+    height: fit-content;
    
+
+  
 }
 
 
 
-@keyframes glitter {
-    0%{background: linear-gradient(to left,var(--purple),white,white);}
-    50%{ background: linear-gradient(to left,white,var(--purple),white);}
-    100%{background: linear-gradient(to left,white,white,var(--purple));}
-}
 
-@keyframes spark {
-    0%{background: linear-gradient(to left,rgba(255, 0, 0, 0.555),white,white);}
-    50%{ background: linear-gradient(to left,white,rgba(255, 0, 0, 0.507),white);}
-    100%{background: linear-gradient(to left,white,white,rgba(255, 0, 0, 0.5));}
-}
 
 img{
     box-shadow: 0px 0px 10px var(--purple);
@@ -175,9 +161,13 @@ img{
 
 .favicons a,.favicons{
     color:red;
-    text-align: center;
-    margin: 20px;
+}
 
+footer{
+    text-align: center;
+    color:red;
+  
+    
 }
 
 
