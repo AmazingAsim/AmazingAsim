@@ -1,174 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Square+Peg&display=swap');
-:root{
-    --purple:rgb(20, 199, 223);
-}
-body{
-   font-family: 'Orelega One', cursive;
-   overflow-x: hidden;
-   margin-top: 7%;
-   background:url('https://i.gifer.com/origin/55/55c41a4c580cdb65518e222ebeed0e51.gif');
-   background-attachment:fixed;
-   background-size: cover;
-   color:white;
+body {}
 
+#profileimg {
+    width: 30%;
+    border-radius: 50%;
+    border: 1px solid orange;
 }
 
-li{
-    list-style-type: none;
-}
-
-nav a{
-    color:red;
-    font-size: 1.5rem;
-}
-
-.navbar-brand{
-    font-size: 4vw;
-    background:url('https://i.gifer.com/Hgap.gif');
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    padding:0px;
-    margin:0px;
-    height: fit-content;
-
-    color:transparent;
-
-    
-}
-
-.info{
+.profile {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: space-evenly;
     align-items: center;
-}
-.info ul li{
-    text-align: left;
-    vertical-align:bottom;
-}
-.info ul li::before{
-    
-    content: '\02605';
-    font-size: 2rem;
-    margin-right: 20px;
-   vertical-align:middle;
-}
-
-.info h1, .info h2{
-    background-color: var(--purple);
-    width: 100%;
-    box-shadow: 0px 0px 5px black;
-}
-
-.sl{
-    display: flex;
-    justify-content: center;
-
-}
-
-.toollist{
-    transform-style: preserve-3d;
-    perspective: 500px;
-    display: flex;
-    justify-content: center;
-    transition: 1s ease-out;
-}
-
-
-.toollist .col{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   margin: 20px;
-   background-color:var(--purple);
-   min-width:150px;
-   max-width: 150px;
-   height: 150px; 
-   border-radius: 100px;
-   text-align: center;
-   transition: 1s ease-in;
- 
-
-    
-}
-
-.toollist .col:hover{
-  transform: rotateY(360deg);
-  background-color:red;
-  color:white;
-}
-.toollist h1{
-    font-size: 20px;
-    width: fit-content;
-}
-.projectgrid{
-    display: flex;
-    justify-content: space-around;
-   
-}
-
-
-
-.tools{
-    text-shadow: 1px 1px 2px black;
-    position: relative;
-    
-
-    
-}
-.card{
-    opacity: 0.95;
-}
-.card:hover{
-  transform: scale(1.05);
-  box-shadow: 0px 0px 10px rgb(0, 0, 0);;
-  opacity: 1;
-}
-
-
-nav,footer{
-    box-shadow: 0px 0px 10px black;
-    background: url('https://c.tenor.com/FWCvtcgsT_EAAAAC/stars-star.gif');
-    background-size: cover;
-    padding:0px;
-    height: fit-content;
-   
-
-  
-}
-
-
-
-
-
-img{
-    box-shadow: 0px 0px 10px var(--purple);
+    border-right: 10px solid orangered;
+    border-left: 10px solid orangered;
     border-radius: 50px;
+    font-size: larger;
+    color: orangered;
+    padding: 10px;
+    margin-top: 10px;
+
 }
 
-.sl img{
-    box-shadow: 0px 0px 11px black;
+#intro {
+
+    height: fit-content;
+    width: 60%;
+    /* border-right: 10px solid orangered;
+    border-left: 10px solid orangered;
+    border-radius: 20px;
+    font-size: larger; */
+    padding: 10px;
 }
 
-.sl img:hover{
-    transform: scale(1.4);
+.fa-brands:hover,
+.fa-solid:hover {
+
+    transform: scale(1.5);
+
 }
 
-.nav-link:hover{
-    color:red;
+.resume {
+    background-color: black;
+    color: orangered;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
 
-.favicons a,.favicons{
-    color:red;
+.resume:hover {
+    background-color: orangered;
+    color: black;
 }
 
-footer{
-    text-align: center;
-    color:red;
-  
+a {
+
+    color: orangered;
+    margin:5px;
+    transition: 1s;
+    border-radius: 20px;
+}
+
+a:hover {
     
+    color:orange;
+    padding: 5px;
+    border-radius: 20px;
+    transition: 1s;
 }
 
-
-
+footer {
+    background-color: black;
+    color: orangered;
+    font-size: 1.2rem;
+    text-align: left;
+    padding-left: 20px;
+    box-sizing: border-box;
+    height: fit-content;
+    padding: 5px;
+}
